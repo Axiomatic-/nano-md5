@@ -29,6 +29,7 @@ import qualified Data.ByteString      as B
 import Foreign
 import Foreign.C.Types
 import Numeric                        (showHex)
+import System.IO.Unsafe
 
 md5_digest_length :: Int
 md5_digest_length = 16
